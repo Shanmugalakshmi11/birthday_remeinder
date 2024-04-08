@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Board from "./components/board";
 
 function App() {
   return (
     <div className="App">
-      <h1>Birthday Remainder </h1>
+      <Board></Board>
     </div>
   );
 }
