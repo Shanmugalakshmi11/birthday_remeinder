@@ -1,42 +1,47 @@
 import React from "react";
 import "./board.css";
 import List from "./list";
+import img1 from "./images/image1.jpg";
+import img2 from "./images/image2.jpg";
+import img3 from "./images/image3.jpg";
+import img4 from "./images/image4.jpg";
+import img5 from "./images/image5.jpg";
 
 const Info = [
   {
-    img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
+    img: img1,
     name: "Parthiban Munusamy",
-    birthday: "1995-04-11",
+    birthday: "1977-04-11",
   },
   {
-    img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-    name: "Sofia Cooper",
-    birthday: "1995-04-08",
+    img: img2,
+    name: "Shanmugalakshmi Chandrasekaran",
+    birthday: "1986-01-11",
   },
   {
-    img: "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-    name: "Miller Wright",
-    birthday: "1998-05-29",
+    img: img3,
+    name: "Sangamithra Parthiban",
+    birthday: "2009-10-28",
   },
   {
-    img: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-    name: "Tara Kelly",
-    birthday: "1991-05-02",
+    img: img4,
+    name: "Shanmugarajan",
+    birthday: "1988-01-26",
   },
   {
-    img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-    name: "Freddie Watson",
-    birthday: "1999-10-15",
+    img: img5,
+    name: "Kasthuri Rajam",
+    birthday: "1960-03-24",
   },
   {
-    img: "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-    name: "Brianna Baker",
-    birthday: "1994-07-05",
+    img: img2,
+    name: "Aaru",
+    birthday: "2022-04-12",
   },
   {
-    img: "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-    name: "Brad Myers",
-    birthday: "1997-01-28",
+    img: img1,
+    name: "Chandrasekaran",
+    birthday: "1947-04-08",
   },
 ];
 
